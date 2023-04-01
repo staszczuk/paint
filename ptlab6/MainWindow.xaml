@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Canvas Name="canvas" MouseMove="Canvas_MouseMove" MouseDown="Canvas_MouseDown">
+            <Canvas.Background>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </Canvas.Background>
+        </Canvas>
     </Grid>
 </Window>
